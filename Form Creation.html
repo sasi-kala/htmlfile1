@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>PERSONAL DETAILS</title>
+</head>
+<body>
+	
+	<link rel="stylesheet" href="FormStyle.css">
+	<form action="submit.html" method="post" target="new">
+		<h1><center>PERSONAL DETAILS</center></h1>
+		<nav>
+		<ul> 
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<br><br><br>
+		<label>FIRSTNAME:</label>
+		<input type="text" name="Firstname" required>
+<br> <br><br>
+		<label>LASTNAME:</label> 
+		<input type="text" name="Lastname" required>
+<br><br><br>
+         
+         <label>DATE OF BIRTH:</label>
+         <input type="date" required>
+<br><br><br>
+
+		<label>EDUCATION QUALIFICATION:</label>
+		<select name="Education qualification" required>
+			<option>SSLC</option>
+			<option>HSC</option>
+			<option>Under Graduate</option>
+			<option>Post Graduate</option>
+			<option>Others</option>
+
+		</select>
+<br><br><br>
+
+        <label>MARITAL STATUS:</label>
+        <input type="radio" name="martial status" value="YES" required>YES
+        <input type="radio" name="martial status" value="NO" required>NO
+<br><br><br>
+  
+        <label>EMAIL:</label>
+        <input type="text" required>
+<br><br><br>
+
+        <label>ADDRESS:</label><br>
+        <textarea name="address" col="50" rows="3" required></textarea>
+
+<br><br><br>
+         <input type="checkbox" required><p>I Hereby Declare that the above Information is True</p>
+         
+<br><br><br>
+
+       <input type="submit" class= "button" value="SUBMIT">
+       <style>
+
+ .button:hover
+{
+	background-color: yellow;
+	
+}
+
+
+</style>
+</form>
+</body>
+</html>
+
+
+
+
+
