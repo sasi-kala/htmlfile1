@@ -1,0 +1,121 @@
+
+body
+{
+	font-family:'PT scans', sans-serif;
+	background-color: #252529;
+	margin:0;
+	color:white;
+	line-height: 1.6;
+	background: url('https://img.freepik.com/premium-photo/silhouette-action-sport-outdoors-young-man-having-fun-playing-soccer-football-exercise-sunset_34141-619.jpg?w=2000') no-repeat center/cover;
+
+	
+}
+
+
+#showcase 
+{
+
+	overflow: hidden;
+	/*background-color:#4C4A4D;*/
+
+}
+
+
+img
+{
+	float: right;
+}
+
+
+nav a:hover
+{
+	color:darkgreen;
+}
+
+nav li 
+{
+	display: inline;	
+	
+}
+
+nav a
+{
+	/*display: inline-block;
+	width:100px;
+	padding-right:50px ;
+	text-decoration: none;
+	font-size: 19px;
+	text-align: center;
+	color:white;
+	spacing:12px;
+	float:left;*/
+	text-decoration: none;	
+display:inline-block;
+padding-right: 50px;
+spacing:19px;
+font-size: 21px;
+font-family:monospace;
+margin: 0px;
+float:left;
+
+} 
+#right
+{
+	float:left;
+	
+}
+
+.container 
+{
+	text-align: center;
+	
+	
+
+}
+ footer .footer-cols
+{
+display:grid;	
+grid-gap:25px;
+grid-template-columns: repeat(3,1fr);
+padding:7rem;
+text-align: center;
+font-size: 14px;
+spacing:60px;
+
+}
+
+footer .footer-cols ul li 
+{
+list-style:none;
+}
+
+footer a 
+{
+	text-decoration: none;
+	color:white;
+
+}
+
+footer .footer-cols ul li:first-child
+
+{
+	font-size:2rem;
+	color:black;
+
+}
+footer .footer-cols ul li a 
+
+{
+	font-size:1.5rem;
+	color:black;
+
+}
+ footer .footer-bottom p
+{
+	
+	color:white;
+	font-size: 25px;
+	text-align: center;
+}
+
+
